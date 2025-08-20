@@ -100,7 +100,7 @@ const WeatherApp: React.FC = () => {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="bg-gray-800 backdrop-blur-sm p-6 rounded-2xl shadow-xl max-w-sm w-full text-center mt-30"
+        className="bg-gray-800 backdrop-blur-sm p-6 rounded-2xl shadow-xl max-w-sm w-full text-center mt-10 mb-10 md:mt-30"
       >
         <h2 className="text-3xl font-semibold mb-5">Weather App</h2>
 
